@@ -69,25 +69,25 @@ In the initial data preparation phase, we performed the following task:
 ## Analysis and Summaries with Pivot Tables
 
 1. Total Revenue per Month
-•	Rows: Month
-•	Values: Sum of unit_price * transaction_qty
-•	This analysis will show the total Revenue revenue generated in each Month.
+- Rows: Month
+- Values: Sum of unit_price * transaction_qty
+- This analysis will show the total Revenue revenue generated in each Month.
 2. Total Transaction per Day of Week
-•	Rows: weekdayName
-•	Values: Count of Transaction_id
-•	This analysis will show the count of transactions each week day.
+- Rows: weekdayName
+- Values: Count of Transaction_id
+- This analysis will show the count of transactions each week day.
 3. Total Transaction by hour of Day
-•	Rows: Hour
-•	Values: Count of Transaction_id
-•	This analysis will show the count of transactions each week day.
+- Rows: Hour
+- Values: Count of Transaction_id
+- This analysis will show the count of transactions each week day.
 4. Total Transaction per product category
-•	Rows: product_category
-•	Values: Count of Transaction_id
-•	This analysis will show the count of transactions per product_category sorted descending by transaction
+- Rows: product_category
+- Values: Count of Transaction_id
+- This analysis will show the count of transactions per product_category sorted descending by transaction
 5. Number of transactions and revenue by product_type sorted in descending order and filtered to the top 15(by transaction)
-•	Rows: product_type
-•	Values: Count of Transaction_id, Sum of Revenue
-•	This analysis will show the count of transactions and Sum of Revenue per product_type sorted descending by transaction
+- Rows: product_type
+- Values: Count of Transaction_id, Sum of Revenue
+- This analysis will show the count of transactions and Sum of Revenue per product_type sorted descending by transaction
 
 ![](Screenshot_pivot_tables.png)
 ---
